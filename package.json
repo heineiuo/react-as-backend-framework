@@ -2,9 +2,8 @@
   "name": "react-as-backend-framework",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node-ts-scripts run src/index.tsx --output-dir=build --platform=node --import-map=importmap.json"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/heineiuo/react-as-backend-framework/issues"
   },
-  "homepage": "https://github.com/heineiuo/react-as-backend-framework#readme"
+  "homepage": "https://github.com/heineiuo/react-as-backend-framework#readme",
+  "dependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "jsdom": "^16.5.1",
+    "node-ts-scripts": "^0.24.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }

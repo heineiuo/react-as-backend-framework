@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "canvas": "canvas",
+    "react": "react",
+    "react-dom": "react-dom",
+    "jsdom": "jsdom"
+  }
+}

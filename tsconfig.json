@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "es2019",
+      "dom",
+      "esnext.asynciterable",
+      "dom.iterable",
+      "esnext"
+    ],
+    "outDir": "./build",
+    "declaration": true,
+    "allowJs": false,
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "amd",
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./@types",
+      "./typings"
+    ],
+  },
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/build"
+  ]
+}
